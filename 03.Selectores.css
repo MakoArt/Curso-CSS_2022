@@ -1,0 +1,29 @@
+/*
+ORDEN PREFERENCIA SELECTORES DE MENOR A MAYOR
+1-Etiquetas
+2-Clases
+3-Identificadores o id 
+4-Estilos en linea 
+5- los famosos !importants
+
+Cuando las dos etiquetas tienen la misma fuerza prevalecerá la última
+*/ 
+
+
+
+#titulo{
+    color:indigo;
+}
+
+.titulo{
+    color:orangered;
+}
+ 
+h1{
+    color:green !important;
+}
+
+h1{
+    color:yellow;
+}
+

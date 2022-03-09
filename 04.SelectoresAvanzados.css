@@ -1,0 +1,42 @@
+/*selector general*/ 
+*{
+    color:orangered;
+    font-size: 20px;
+}
+
+/*varias etiquetas*/ 
+
+p,a{
+    color:green;
+}
+
+/*etiquetas que pertenecen a otras*/
+.practica3 p{
+    color:red;
+}
+
+/*Selectores hijos*/ 
+
+.practica>a{
+   text-decoration: none;
+}
+
+/*Selectores abyacentes*/
+p+a{
+    font-size: 50px;
+}
+
+/*Selectores Hermanos*/
+
+p~a{
+    color:indigo;
+}
+
+/*Selectores de atributo*/ 
+
+input[type="button"]{
+    background-color: crimson;
+}
+input[type="text"]{
+    background-color: green;
+}
